@@ -2,7 +2,7 @@
 	var _keyword = [], _height = 0, _interval;
 
 	function hasKeyword(html) {
-		for (var i = 0; _keyword[i] != null; ++ii) if (html.indexOf(_keyword[i]) > -1) return true; return false;
+		for (var i = 0; _keyword[i] != null; ++i) if (html.indexOf(_keyword[i]) > -1) return true; return false;
 	}
 
 	window.FBEraser = function () {
